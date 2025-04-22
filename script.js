@@ -13,8 +13,8 @@ function borrar(){
 }
 
 function raizcuadrada() {
-    let numeroactual = document.getElementById("displayGrande").value;
-    let resultado = Math.sqrt(numeroactual);document.getElementById("displayGrande").value = resultado;
+    let numeroactual = document.getElementById("displayChico").innerHTML;
+    let resultado = Math.sqrt(numeroactual);document.getElementById("displayGrande").innerHTML = resultado;
 }
 
 function mostrar(numero){
