@@ -1,0 +1,170 @@
+body{
+    background: linear-gradient(90deg,rgb(15, 3, 56) 0%, rgb(1, 27, 82) 50%, rgb(83, 180, 237) 100%);
+}
+.parent :hover{
+    background:linear-gradient(130deg, rgb(233, 233, 233) 0%, rgb(236, 236, 236) 51%);
+
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 6px;
+    margin: auto;
+    width: 23%;
+    height: 535px;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    border: solid rgb(212, 212, 212);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+    
+.displayChico{
+    height: 12px;
+}
+.div1 {
+    grid-column: span 4 / span 4;
+    background-color: white;
+    font-size:small;
+
+}
+
+.div2 {
+    grid-column: span 4 / span 4;
+    grid-row-start: 2;
+    background-color: white;
+    font-weight: bold;
+}
+
+.div3 {
+    grid-column: span 4 / span 4;
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+    background-color: white;
+    text-align: end;
+
+}
+
+.div4 {
+    grid-row-start: 5;
+    background-color: white;
+}
+
+.div5 {
+    grid-row-start: 5;
+    background-color: white;
+}
+
+.div6 {
+    grid-row-start: 5;
+    background-color: white;
+}
+
+.div7 {
+    grid-row-start: 5;
+    background-color: white;
+}
+
+.div8 {
+    grid-row-start: 6;
+    background-color: white;
+}
+
+.div9 {
+    grid-row-start: 6;
+      background-color: white;
+}
+
+.div10 {
+    grid-row-start: 6;
+    background-color: white;
+}
+
+.div11 {
+    grid-row-start: 6;
+    background-color: white;
+}
+
+.div12 {
+    grid-row-start: 7;
+    background-color: white;
+}
+
+.div13 {
+    grid-row-start: 7;
+    background-color: white;
+}
+
+.div14 {
+    grid-row-start: 7;
+    background-color: white;
+}
+
+.div15 {
+    grid-row-start: 7;
+    background-color: white;
+}
+
+.div16 {
+    grid-row-start: 8;
+    background-color: white;
+}
+
+.div17 {
+    grid-row-start: 8;
+    background-color: white;
+}
+
+.div18 {
+    grid-row-start: 8;
+    background-color: white;
+}
+
+.div19 {
+    grid-row-start: 8;
+    background-color: white;
+}
+
+.div20 {
+    grid-row-start: 9;
+    background-color: white;
+}
+
+.div21 {
+    grid-row-start: 9;
+    background-color: white;
+}
+
+.div22 {
+    grid-row-start: 9;
+    background-color: white;
+}
+
+.div23 {
+    grid-row-start: 9;
+    background-color: white;
+}
+
+.div24 {
+    grid-row-start: 10;
+    background-color: white;
+}
+
+.div25 {
+    grid-row-start: 10;
+    background-color: white;
+}
+
+.div26 {
+    grid-row-start: 10;
+    background-color: white;
+}
+
+.div27 {
+    grid-row-start: 10;
+    background-color: rgb(4, 99, 163);
+    color: white;
+    
+}
+        
