@@ -12,6 +12,10 @@ function borrar(){
     numeroactual="";
 }
 
+function raizcuadrada() {
+    let numeroactual = document.getElementById("displayGrande").value;
+    let resultado = Math.sqrt(numeroactual);document.getElementById("displayGrande").value = resultado;
+}
 
 function mostrar(numero){
     numeroactual=numeroactual+numero;
