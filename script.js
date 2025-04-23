@@ -56,7 +56,3 @@ function igual(){
 
 }
 
-let array ={"Lunes",
-    "Martes",
-    
-}
