@@ -12,14 +12,6 @@ function borrar(){
     numeroactual="";
 }
 
-function borrartodo(){
-
-        this.numeroactual = '';
-        this.numeroAnterior = '';
-        this.tipoDeOperacion = undefined;
-        this.imprimirValores();
-    
-}
 
 function mostrar(numero){
     numeroactual=numeroactual+numero;
