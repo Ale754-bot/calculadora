@@ -2,8 +2,6 @@ let numeroactual="";
 let numeroAnterior="";
 let tipoDeOperacion;
 
-
-
 function borrar(){
     document.getElementById("displayGrande").innerHTML = numeroactual;
     document.getElementById("displayChico").innerHTML = numeroAnterior;
