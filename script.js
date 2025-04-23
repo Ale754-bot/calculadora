@@ -12,11 +12,6 @@ function borrar(){
     numeroactual="";
 }
 
-function raizcuadrada(<sup>2</sup>&radic;x){
-    let numeroactual = document.getElementById("displayChico").innerHTML;
-    let resultado = Math.sqrt(numeroactual);document.getElementById("displayGrande").innerHTML = resultado;
-}
-
 function mostrar(numero){
     numeroactual=numeroactual+numero;
     document.getElementById("displayGrande").innerHTML = numeroactual;
