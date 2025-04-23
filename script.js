@@ -6,15 +6,7 @@ let tipoDeOperacion;
 
 function borrar(){
     document.getElementById("displayGrande").innerHTML = numeroactual;
-    numeroactual="";
-}
-
-function borrartodo(){
-
-        this.numeroactual = '';
-        this.numeroAnterior = '';
-        this.tipoOperacion = undefined;
-        this.imprimirValores();
+    document.getElementById("displayGrande").innerHTML = numeroAnterior;
     
 }
 
