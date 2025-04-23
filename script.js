@@ -6,7 +6,7 @@ let tipoDeOperacion;
 
 function borrar(){
     document.getElementById("displayGrande").innerHTML = numeroactual;
-    document.getElementById("displayGrande").innerHTML = numeroAnterior;
+    document.getElementById("displayChico").innerHTML = numeroAnterior;
     
 }
 
