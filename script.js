@@ -3,9 +3,6 @@ let numeroAnterior="";
 let tipoDeOperacion;
 
 
-//alert(Math.sqrt(9))
-let num=""
-(num**2)
 
 function borrar(){
     document.getElementById("displayGrande").innerHTML = numeroactual;
@@ -56,3 +53,14 @@ function igual(){
 
 }
 
+
+let array =["Lunes",
+    "Martes",
+    "Miercoles",
+    "Jueves",
+    "Viernes",
+    "Sábado",
+    "Domingo"]
+for(let i=0; i<Array.length ; i++){
+console.log(Array[i]);
+}
