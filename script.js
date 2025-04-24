@@ -61,7 +61,7 @@ function igual(){
         }
        break;
        case '%': 
-       result = (Number(numeroAnterior)*Number(numeroactual) / 100);
+       document.getElementById("displayGrande").innerHTML = (Number(numeroAnterior)*Number(numeroactual) / 100);
    break;
 
     
