@@ -60,6 +60,10 @@ function igual(){
             document.getElementById("displayGrande").innerHTML = Number(numeroAnterior)/Number(numeroactual);
         }
        break;
+       case '%': 
+       document.getElementById("displayGrande").innerHTML = Number(numeroAnterior)*Number(numeroactual);
+   break;
+
     
         default:
     }
