@@ -38,7 +38,16 @@ function operacion(signo){
     numeroactual="";
     tipoDeOperacion=signo;
 }
-    
+
+function raizcuadrada(){
+    document.getElementById("displayGrande").innerHTML = Math.sqrt(Number(numeroactual));
+}
+function porcentaje(){
+    document.getElementById("displayGrande").innerHTML = Math.sqrt(Number(numeroactual))
+}
+function alcuadrado(){
+    document.getElementById("displayGrande").innerHTML = Math.sqrt(Number(numeroactual))
+}    
 
 function igual(){
     document.getElementById("displayChico").innerHTML = numeroAnterior+tipoDeOperacion+numeroactual+"=";
@@ -66,12 +75,7 @@ function igual(){
 
 }
 
-function raizcuadrada(){
-    document.getElementById("displayGrande").innerHTML = Math.sqrt(Number(numeroactual));
-}
-function porcentaje(){
-    document.getElementById("displayGrande").innerHTML = Math.sqrt(Number(numeroactual))
-}
+
 
 let Array =["Lunes",
     "Martes",
