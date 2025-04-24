@@ -61,7 +61,7 @@ function igual(){
         }
        break;
        case '%': 
-       document.getElementById("displayGrande").innerHTML = (Number(numeroAnterior)*Number(numeroactual) / 100);
+       result = (Number(numeroAnterior)*Number(numeroactual) / 100);
    break;
 
     
@@ -87,9 +87,14 @@ for(let i=0; i<Array.length ; i++){
 }
 let ultimo=Array.pop()
 
+let suma = 0;
 let numerospares=[];
 
 for(let i=2; i<=1000 ; i += 2){
-    numerospares.push(i)
+    numerospares.push(i);
+    suma += i;
 }
-console.log(numerospares);
+console.log('Numeros pares, numerospares');
+console.log('Suma numeros pares, suma');
+
+
