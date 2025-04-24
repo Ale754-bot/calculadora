@@ -81,3 +81,9 @@ let Array =["Lunes",
 for(let i=0; i<Array.length ; i++){
     console.log(Array[i]);
 }
+let ultimo=Array.pop()
+
+
+for(let i=2; i<=1000 ; i++){
+    console.log(i)
+}
