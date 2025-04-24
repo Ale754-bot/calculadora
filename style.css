@@ -219,5 +219,5 @@ body{
   }
   
   .card:hover:after {
-    content: "HELLO";
+    content: "CALCULÁ ALGO";
   }
