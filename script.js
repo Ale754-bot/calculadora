@@ -23,7 +23,7 @@ if(numero1>numero2){
 
 function borrar(){
     document.getElementById("displayGrande").innerHTML = numeroactual;
-    document.getElementById("displayChico").innerHTML = numeroAnterior;
+   
     
 }
 
@@ -46,7 +46,7 @@ function porcentaje(){
     document.getElementById("displayGrande").innerHTML = Math.sqrt(Number(numeroactual))
 }
 function alcuadrado(){
-    document.getElementById("displayGrande").innerHTML = Math.pow(Number(numeroAnterior))
+    document.getElementById("displayGrande").innerHTML = Number(numeroAnterior)**2
 }    
 
 function igual(){
