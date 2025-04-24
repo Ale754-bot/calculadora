@@ -46,7 +46,7 @@ function porcentaje(){
     document.getElementById("displayGrande").innerHTML = Math.sqrt(Number(numeroactual))
 }
 function alcuadrado(){
-    document.getElementById("displayGrande").innerHTML = Number(numeroAnterior)**2
+    document.getElementById("displayGrande").innerHTML = Number(numeroactual)**2
 }    
 
 function igual(){
