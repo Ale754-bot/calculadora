@@ -60,11 +60,7 @@ function igual(){
             document.getElementById("displayGrande").innerHTML = Number(numeroAnterior)/Number(numeroactual);
         }
        break;
-       case '%': 
-       document.getElementById("displayGrande").innerHTML = (Number(numeroAnterior)*Number(numeroactual) / 100);
-   break;
 
-    
         default:
     }
 
@@ -72,6 +68,9 @@ function igual(){
 
 function raizcuadrada(){
     document.getElementById("displayGrande").innerHTML = Math.sqrt(Number(numeroactual));
+}
+function porcentaje(){
+    document.getElementById("displayGrande").innerHTML = Math.sqrt(Number(numeroactual))
 }
 
 let Array =["Lunes",
