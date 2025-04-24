@@ -83,7 +83,9 @@ for(let i=0; i<Array.length ; i++){
 }
 let ultimo=Array.pop()
 
+let numerospares[] ;
 
-for(let i=2; i<=1000 ; i++){
-    console.log(i)
+for(let i=2; i<=1000 ; i += 2){
+    numerospares.push(i)
 }
+console.log(numerospares);
